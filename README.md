@@ -25,10 +25,13 @@
 | Проект | Что это | Стек | Репозиторий |
 |---|---|---|---|
 | **Legal Privacy — сайт** | Сайт консалтинговой компании по 152-ФЗ: лендинг, форма заявок, тест готовности к проверке РКН, cookie-баннер и журнал согласий, автоудаление ПДн по сроку хранения | Next.js, React, TypeScript, Express, PostgreSQL | [legal_privasy_site](https://github.com/vergolden/legal_privasy_site) · [сайт](https://legal-privacy.ru) *(репозиторий приватный)* |
-| **Legal Privacy — контент-бот** | Telegram-бот: поиск новостей по 152-ФЗ/ИБ, генерация текста и картинки поста, доставка черновика на утверждение, публикация в ВК и Telegram-канал по нажатию кнопки | Python 3 (без сторонних зависимостей), Telegram Bot API, VK API | [legal_privacy_bot](https://github.com/vergolden/legal_privacy_bot) *(репозиторий приватный)* |
+| **Legal Privacy — контент-бот** | AI-пайплайн: поиск новостей по 152-ФЗ/ИБ, генерация текста и картинки поста через Claude Code skills, доставка черновика на утверждение, публикация в ВК и Telegram-канал по нажатию кнопки | Python 3 (без сторонних зависимостей), Telegram Bot API, VK API, ProxyAPI | [legal_privacy_bot](https://github.com/vergolden/legal_privacy_bot) |
+| **Legal Privacy — диагностика по ИНН** | VK-бот для клиентов: экспресс-проверка компании по ИНН и подбор чек-листа рисков 152-ФЗ по коду ОКВЭД | Python 3, vkbottle, dadata.ru API | [lp-inn-diagnostics-bot](https://github.com/vergolden/lp-inn-diagnostics-bot) |
 | **Job Search Agent** | Личный CLI-агент для подготовки резюме, сопроводительных писем и тезисов к интервью — с единым источником фактов о карьере и версионированием по вакансии | Claude Code workflow, Markdown | [job_search_agent](https://github.com/vergolden/job_search_agent) *(репозиторий приватный)* |
 
 Legal Privacy — семейный проект: делаю его вместе с супругой, действующим Lead DPO (RPPA) с 9-летним опытом в микрофинансовой отрасли. Она отвечает за юридическую часть, я — за архитектуру, процессы и ИТ.
+
+Ещё несколько практических проектов — на GitHub: [booking-system](https://github.com/vergolden/booking-system) (система бронирования, PostgreSQL), [currency-travel-bot](https://github.com/vergolden/currency-travel-bot) (Telegram-бот учёта расходов в поездках), [PDF_CheckMaker](https://github.com/vergolden/PDF_CheckMaker) (генератор PDF-инвойсов).
 
 ## Ищу
 
